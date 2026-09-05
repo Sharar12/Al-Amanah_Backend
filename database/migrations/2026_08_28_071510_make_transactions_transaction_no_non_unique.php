@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('transactions', function (Blueprint $table) {
-            $table->dropUnique('transaction_no');
+            $table->dropUnique('transactions_transaction_no_unique');
             $table->index('transaction_no', 'idx_transactions_trx_no');
         });
     }
