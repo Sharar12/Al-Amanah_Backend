@@ -21,7 +21,7 @@ The backend is designed to serve the separate **Al-Amanah Frontend** application
 | Laravel Pint | PHP code style |
 | Laravel Pail | Local application logging |
 
-The project requires PHP `^8.2`, Laravel `^12.0`, and Laravel Sanctum `^4.0`. fileciteturn72file0
+The project requires PHP `^8.2`, Laravel `^12.0`, and Laravel Sanctum `^4.0`.
 
 ## Core Capabilities
 
@@ -91,7 +91,7 @@ Other
 └── /api/id-photos/{filename}
 ```
 
-Sensitive endpoints are grouped behind Sanctum authentication and role/permission middleware in `routes/api.php`. fileciteturn76file0
+Sensitive endpoints are grouped behind Sanctum authentication and role/permission middleware in `routes/api.php`.
 
 ## Project Structure
 
@@ -190,7 +190,7 @@ php artisan test             # Run the test suite
 ./vendor/bin/pint            # Format PHP code with Laravel Pint
 ```
 
-The Composer configuration also provides `composer test` and a combined `composer dev` workflow for local development. fileciteturn72file0
+The Composer configuration also provides `composer test` and a combined `composer dev` workflow for local development.
 
 ## Frontend Integration
 
@@ -213,3 +213,5 @@ The frontend consumes the API under the `/api` prefix and sends Sanctum bearer t
 ## License
 
 This project is licensed under the license included in the repository.
+
+<!-- README refresh: documentation-only change. -->
